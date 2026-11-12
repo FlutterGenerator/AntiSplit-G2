@@ -21,7 +21,7 @@
 ## ⚙️ How to Use in CodeAssist
 1. Download or clone this repository.
 2. Open CodeAssist on your device.
-3. Locate the downloaded esp-tester-v1.caproj file.
+3. Locate the downloaded antisplit-g2.caproj file.
 4. Import or open the project in a compatible editor.
 5. If the file format is not supported, check whether the project needs to be exported to a supported format.
 6. Edit the project files as needed.
