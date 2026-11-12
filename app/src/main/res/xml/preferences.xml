@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_sign_header">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="signEnable"
+            android:summaryOff="@string/pref_sign_summ_off"
+            android:summaryOn="@string/pref_sign_summ_on"
+            android:title="@string/pref_sign_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_module_header">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="moduleEnable"
+            android:summaryOff="@string/pref_module_summ_off"
+            android:summaryOn="@string/pref_module_summ_on"
+            android:title="@string/pref_module_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_extract_native_header">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="extractNativeLibsEnable"
+            android:summaryOff="@string/pref_extract_native_summ_off"
+            android:summaryOn="@string/pref_extract_native_summ_on"
+            android:title="@string/pref_extract_native_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_mismatching_packages_header">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="mismatchingPackagesEnable"
+            android:summaryOff="@string/pref_mismatching_packages_summ_off"
+            android:summaryOn="@string/pref_mismatching_packages_summ_on"
+            android:title="@string/pref_mismatching_packages_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_lang_header">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="languageEnable"
+            android:summaryOff="@string/pref_lang_split"
+            android:summaryOn="@string/pref_lang_only_lang"
+            android:title="@string/pref_lang_enable" />
+        <EditTextPreference
+            android:defaultValue="ru"
+            android:key="languageCode"
+            android:summary="@string/pref_language_key_summary"
+            android:title="@string/pref_language_key" />
+    </PreferenceCategory>
+</PreferenceScreen>
